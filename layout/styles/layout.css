@@ -252,7 +252,7 @@ blockquote::before{color:rgba(0,0,0,.05);}
 .row0, .row0 a{color:#474747; background-color:#FFFFFF;}
 .row1{color:#FFFFFF; border-color:rgba(255,255,255,.1);}
 .row2{color:#474747; background-color:#FFFFFF; border-color:#D7D7D7;}
-.row3{color:#474747; background-color:#FFFFFF;}
+.row3{color:#474747; background-color:#FFFFFF;line-height:150%;}
 .row4{color:#CBCBCB;}
 .row5, .row5 a{color:#CBCBCB;}
 
