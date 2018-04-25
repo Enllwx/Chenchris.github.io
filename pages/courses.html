@@ -5,19 +5,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<script src="../layer/jquery.js?v=1.83.min"></script>
-<script src="../layer/layer.min.js"></script>
 <style>
 html{background-color:#E3E3E3; font-size:14px; color:#000; font-family:'微软雅黑'}
 a,a:hover{ text-decoration:none;}
 pre{font-family:'微软雅黑'}
 .box{padding:20px; background-color:#fff; margin:20px 100px; border-radius:5px;}
 .box a{padding-right:15px;}
-#about_hide{display:none}
-.layer_text{background-color:#fff; padding:20px;}
-.layer_text p{margin-bottom: 10px; text-indent: 2em; line-height: 23px;}
-.button{display:inline-block; *display:inline; *zoom:1; line-height:30px; padding:0 20px; background-color:#56B4DC; color:#fff; font-size:14px; border-radius:3px; cursor:pointer; font-weight:normal;}
-.imgs img{width:300px;padding:0 20px 20px;}
 </style>
 </head>
 <body>
@@ -157,30 +150,10 @@ pre{font-family:'微软雅黑'}
             <li class="one_third first"><a href="#"><img src="../images/cursine/c55.jpg" alt=""></a></li>
             <li class="one_third"><a href="#"><img src="../images/cursine/c56.jpg" alt=""></a></li>
             <li class="one_third"><a href="#"><img src="../images/cursine/c57.jpg" alt=""></a></li>
-
           </ul>
-          <figcaption>Gallery Description Goes Here</figcaption>
+          <figcaption>I have been teach myself how to cook for 3 years.</figcaption>
         </figure>
       </div>
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
-      <nav class="pagination">
-        <ul>
-          <li><a href="#">&laquo; Previous</a></li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><strong>&hellip;</strong></li>
-          <li><a href="#">6</a></li>
-          <li class="current"><strong>7</strong></li>
-          <li><a href="#">8</a></li>
-          <li><a href="#">9</a></li>
-          <li><strong>&hellip;</strong></li>
-          <li><a href="#">14</a></li>
-          <li><a href="#">15</a></li>
-          <li><a href="#">Next &raquo;</a></li>
-        </ul>
-      </nav>
-      <!-- ################################################################################################ -->
     </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
@@ -254,21 +227,5 @@ pre{font-family:'微软雅黑'}
 <script src="../layout/scripts/jquery.min.js"></script>
 <script src="../layout/scripts/jquery.backtotop.js"></script>
 <script src="../layout/scripts/jquery.mobilemenu.js"></script>
-<script>
-;!function(){
-layer.use('extend/layer.ext.js', function(){
-    //初始加载即调用，所以需放在ext回调里
-    layer.ext = function(){
-        layer.photosPage({
-            html:'<div style="padding:20px;">这里传入自定义的html<p>相册支持左右方向键，支持Esc关闭</p><p>另外还可以通过异步返回json实现相册。更多用法详见官网。</p><p>'+ unescape("%u7D20%u6750%u5BB6%u56ED%20-%20sc.chinaz.com") +'</p><p id="change"></p></div>',
-            title: '快捷模式-获取页面元素包含的所有图片',
-            id: 100, //相册id，可选
-            parent:'#imgs'
-        });
-    };
-});
-}();
-</script>
-
 </body>
 </html>
